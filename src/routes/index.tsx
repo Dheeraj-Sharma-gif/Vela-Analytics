@@ -75,7 +75,7 @@ function Overview() {
               initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.1 }}
               className="mt-3 max-w-xl text-sm text-muted-foreground md:text-base"
             >
-              A new age C2C marketplace for the India of tomorrow. Pick any week, month or year, and every counter, chart and curve below morphs in real time.
+              Real-time social media analytics dashboard for multi-platform insights. Pick any week, month or year, and every counter, chart and curve below morphs in real time.
             </motion.p>
           </div>
           <TimeframeFilter value={sel} onChange={setSel} />
